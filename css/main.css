@@ -31,7 +31,7 @@
 .all-things {	
 	margin: 0 auto;
 	color: #e0de60;
-	background: url(../images/background6.jpg) center center fixed;
+	background: url(../images/background8.jpg) center center fixed;
 	/*-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -40,43 +40,66 @@
 	}
 
 .word-box {
+	position: relative;
 	width: 360px;
 	height: 500px;
 	border: 5px solid black;	
 	margin: 0 auto;
+	/*box-shadow: -1px -1px 1px #717472, 1px 1px 1px #717472;*/
 }
 
+	
+
 .word-box p {
+	font-family: Trebuchet MS;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	text-align: center;
-	font-size: 25pt;
-	color: black;
-	-webkit-text-stroke-width: .25px;
-	-webkit-text-stroke-color: white;
+	font-size: 20pt;
+	color: white;	
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	text-shadow: 2px 2px 3px #717472;
 }
+
 
 /*'container' is just around 'word-box'*/
 
 .container {
 	width: 360px;
 	height: 500px;
+	background-size: 360px;
+	background-color: rgba(170, 170, 170, .8);
 	background-image: url(../images/winston1.jpg);
 	background-position: 50%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	-moz-box-shadow: inset 1px 1px 20px 20px #404040, inset -1px -1px 20px 20px #404040;
+	-webkit-box-shadow: inset 1px 1px 20px 20px #404040, inset -1px -1px 20px 20px #404040;
+	box-shadow: inset 1px 1px 20px 20px #404040, inset -1px -1px 20px 20px #404040;
 }
-
 
 .title {
+	text-align: center;
 	color: #e0de60;
+	text-shadow: 3px 3px 6px #717472;
 }
 
-.best-quote-ever {
-	font-size: 30pt;
+.and-i-quote {
+	width: 360px;
+	font-size: 35pt;
 	text-align: center;
+	margin: 0 auto;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }
 
 .dropdown { 
+	width: 100px;
 	text-align: center;
+	margin: 0 auto;
 	display: none;
 	font-size: 25px;
 	-webkit-text-stroke-width: .5px;
@@ -84,7 +107,9 @@
 }
 
 .by-steven {
+	width: 110px;
 	text-align: center;
+	margin: 0 auto;
 	display: none;
 	font-size: 25px;
 	-webkit-text-stroke-width: .5px;
@@ -100,27 +125,40 @@
 	color: black;
 	background-color: #e0de60;
 	border-radius: 7px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 15px;
-	margin-left: 20%;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: black;
+	box-shadow: -1px -1px 1px #717472, 1px 1px 1px #717472;
 }
 
+	.button-box {
+		text-align: center;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
 @media (min-width: 768px) {
+	
 	.container { 
 		width: 700px;
 		margin: 0 auto;
-		background-size: 700px;
+		background-position: 50%;
+		background-repeat: no-repeat; 
 	}
-	
+		
 	.word-box {
 		width: 700px;
+		border: 10px solid black;
 	}
-	.best-quote-ever {
+
+	.word-box p {
+		font-size: 25pt;
+	}
+	.and-i-quote {
+		width: 400px;
 		font-size: 60px;
-		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-width: 1px;
 	}
-	.button {
+	/*.button {
 		margin-left: 42.5%;
 	}
 }
