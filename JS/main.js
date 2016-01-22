@@ -224,7 +224,7 @@ else if (picture == winston2) {
 
 var anne1 = 'images/anne1.jpg';
 
-	var winston1 = 'images/winston1.jpg';
+	var winston1 = '../images/winston1.jpg';
 
 	var abe1 = 'images/abe1.jpg';
 
