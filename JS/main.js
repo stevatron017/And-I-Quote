@@ -228,7 +228,7 @@ var anne1 = 'images/anne1.jpg';
 
 	var abe1 = 'images/Abe1.jpg';
 
-	var homer1 = 'images/homer1.jpg';
+	var homer1 = 'images/Homer1.jpg';
 
 	var bruce1 = 'images/bruce1.jpg';
 
