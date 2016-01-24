@@ -246,7 +246,7 @@ var anne1 = 'images/anne1.jpg';
 
 	var degaulle1 = 'images/degaulle1.jpg';
 
-	var disney1 = 'images/disney1.jpg';
+	var disney1 = 'images/disney1.JPG';
 
 	var douglass1 = 'images/douglass1.jpg';
 
@@ -270,7 +270,7 @@ var anne1 = 'images/anne1.jpg';
 
 	var hem1 = 'images/Hem1.jpg';
 
-	var hillary1 = 'images/Hillary1.jpg';
+	var hillary1 = 'images/hillary1.JPG';
 
 	var homer2 = 'images/Homer2.jpg'; 
 
