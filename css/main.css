@@ -72,7 +72,11 @@
 	height: 500px;
 	background-size: 360px;
 	background-color: rgba(170, 170, 170, .8);
+<<<<<<< Updated upstream
 	background-image: url(../images/winston1.jpg);
+=======
+	background-image: url(images/Winston1.jpg);
+>>>>>>> Stashed changes
 	background-position: 50%;
 	margin: 0 auto;
 	background-repeat: no-repeat;

@@ -224,9 +224,9 @@ else if (picture == winston2) {
 
 var anne1 = 'images/anne1.jpg';
 
-	var winston1 = 'images/winston1.jpg';
+	var winston1 = 'images/Winston1.jpg';
 
-	var abe1 = 'images/abe1.jpg';
+	var abe1 = 'images/Abe1.jpg';
 
 	var homer1 = 'images/homer1.jpg';
 
@@ -262,17 +262,17 @@ var anne1 = 'images/anne1.jpg';
 
 	var elizabeth1 = 'images/elizabeth1.jpg';
 
-	var fdr1 = 'images/fdr1.jpg';
+	var fdr1 = 'images/FDR1.jpg';
 
-	var grant1 = 'images/grant1.gif';
+	var grant1 = 'images/Grant1.gif';
 
 	var groucho1 = 'images/groucho1.jpg';
 
-	var hem1 = 'images/hem1.jpg';
+	var hem1 = 'images/Hem1.jpg';
 
-	var hillary1 = 'images/hillary1.jpg';
+	var hillary1 = 'images/Hillary1.jpg';
 
-	var homer2 = 'images/homer2.jpg'; 
+	var homer2 = 'images/Homer2.jpg'; 
 
 	var jefferson1 = 'images/jefferson1.jpg'; 
 
@@ -286,7 +286,7 @@ var anne1 = 'images/anne1.jpg';
 
 	var langston1 = 'images/langston1.png';
 
-	var law1 = 'images/law1.jpg';
+	var law1 = 'images/Law1.jpg';
 
 	var law2 = 'images/law2.jpg';
 
